@@ -1,5 +1,5 @@
 local module = {}
-module.fzfmru_filepath = os.getenv('HOME') .. '/.mru'
+module.fzfmru_filepath = os.getenv('HOME') .. '/.config/vismru.history'
 module.fzfmru_path = "fzf"
 module.fzfmru_args = ""
 module.fzfmru_history = 20
